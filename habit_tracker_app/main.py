@@ -3,7 +3,7 @@ from habit_manager import HabitManager
 from mood_diary import MoodDiary
 from exceptions import HabitError, MoodError
 
-app = Flask(__name__)
+app = Flask(__name__) #идею для интеграции AI сгенерировала в gpt
 habit_manager = HabitManager()
 mood_diary = MoodDiary()
 
