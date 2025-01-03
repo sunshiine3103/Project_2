@@ -9,9 +9,9 @@ mood_diary = MoodDiary()
 
 @app.route('/add_habit', methods=['POST'])
 def add_habit():
-    data = request.json
+    data = request.json #Получаем данные из запроса
     try:
-        habit_manager.add_habit(data['habit'])
+        habit_manager.add_habit(data['habit']) #Добавляем привычку
         return jsonify({"message": "Привычка добавлена!"}), 201
     except HabitError as e:
         return jsonify({"error": str(e)}), 400
