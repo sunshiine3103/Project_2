@@ -11,30 +11,14 @@ Habit Tracker — это приложение, которое позволяет
   
 ## Установка
 
-1. Клонируйте репозиторий:
-   
-bash
-   git clone https://github.com/username/habit_tracker.git   cd habit_tracker
-   
+1. Клонируйте репозиторий.
+2. Установите зависимости:
 
-2. Создайте виртуальное окружение (рекомендуется):
-   
-bash
-   python -m venv venv
-   source venv/bin/activate  # Для Linux/Mac
-   venv\Scripts\activate     # Для Windows
-   
-3. Установите зависимости:
-   
-bash
    pip install -r requirements.txt
    
-4. Запустите приложение:
+3. Запустите приложение:
    
-bash
    python habittrackerapp/main.py   
-
-5. Откройте браузер и перейдите по адресу http://127.0.0.1:5000, чтобы начать использовать приложение.
 
 ## Использование API
 
